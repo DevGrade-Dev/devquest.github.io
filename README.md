@@ -1,6 +1,6 @@
-# Welcome to `DevQuest 2024`
+# Welcome to `DevQuest Test Run 2024`
 
->> DISCLAIMER: Please note that this project is created only for the purpose of DevQuest 2024 and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality, and security malpractices.
+>> DISCLAIMER: Please note that this project is created only for the purpose of DevQuest Test Run 2024 and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality, and security malpractices.
 >>
 
 1. [Setting up your environment](#setting-up-your-environment)
@@ -16,8 +16,12 @@ This section helps you to understand the prerequisite required and how to work w
 
 Installations of stable versions of `Git`, `Node.js` and `npm` are required on your computer. You must also be proficient in working with the aforementioned technologies.
 
-> _Recommended: To ensure seamless management of multiple Node.js versions on your machine, it is highly recommended to use a **Node Version Manager (NVM)**._
->
+[Install Git](https://git-scm.com/downloads)
+
+[Install NodeJS 18.18.0](https://nodejs.org/en/blog/release/v18.18.0)
+
+_Recommended: To ensure seamless management of multiple Node.js versions on your machine, it is highly recommended to use a **Node Version Manager (NVM)**._
+
 > <p>
 >      For Windows -: <a href="https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe" target="_blank">Download the .exe file</a>
 > <br> 
@@ -25,8 +29,7 @@ Installations of stable versions of `Git`, `Node.js` and `npm` are required on y
 
 <br>
 
-* [Node JS 18.18.0](https://nodejs.org/en/blog/release/v18.18.0)
-* [Git](https://git-scm.com/downloads)
+We recommend that you use [Visual Studio Code](https://code.visualstudio.com/download) and install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for a better developer experience.
 
 ### Clone the project to your local computer
 
@@ -44,8 +47,6 @@ Once you clone the project from your team's Git repository, run the following co
 
 * `npm install`
 
-In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the cloned repository folder name.
-
 ### Validate if the environment is correctly setup
 
 You can run the Sanity test file in the `tests` directory with the below command.
@@ -53,12 +54,6 @@ You can run the Sanity test file in the `tests` directory with the below command
 For Windows users,
 
 * `npm test _sanity.test.js`
-
-For other users(MacOS, Linux, etc.),
-
-* `npm run test-nix _sanity.test.js`
-
-<br>
 
 > _Note: If you get an error while running this command, make sure you have set all the prerequisites correctly on your machine._
 
@@ -135,8 +130,8 @@ The system you are about to develop is a platform specifically for connecting pe
 
 You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
 
-* Username: `liyana@hacktitude.io`
-* Password: `hack@1234`
+* Username: `rhoward@office.com`
+* Password: `Ryan@1234`
 
 ### Executing the Tests
 
@@ -144,15 +139,9 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 
 * To run a single test file of a challenge:
 
-  For windows users,
+  `npm test challenge0.test.js`
 
-  * `npm test challenge0.test.js`
-
-  For other users (MacOS, Linux, etc.),
-
-  * `npm run test-nix challenge0.test.js`
-
-As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
+As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every DevQuest challenge has a test case which you can run to validate successful completion of the challenge.
 
 > _Note: Tests are not using the main.sqlite3 database. Every test creates an isolated in-memory database._
 
@@ -169,7 +158,7 @@ Any attempt to compromise the integrity of the contest will `unconditionally dis
 
 ### Improving your developer Experience (Optional)
 
-This step is not mandatory to work on the Hacktitude challenges, but it may improve your development experience.
+This step is not mandatory to work on the DevQuest challenges, but it may improve your development experience.
 
 * Install a plugin for **SQLite Viewer** on your IDE so that you are able to explore the SQLite database.
 
@@ -181,7 +170,7 @@ This step is not mandatory to work on the Hacktitude challenges, but it may impr
 
 ## Solving the challenges
 
-If your sanity test pass and you are able to run the application, now you can proceed to the challenges. All the Hacktitude challenges are documented in an own file. Please visit the links below, read carefully and get started solving them.
+If your sanity test pass and you are able to run the application, now you can proceed to the challenges. All the DevQuest challenges are documented in an own file. Please visit the links below, read carefully and get started solving them.
 
 Although the challenges are independent from one another, it will be easier for you to solve them somewhat sequentially to understand the challenges better.
 
@@ -189,15 +178,14 @@ Note : We also have provided you with some challenges related to the features of
 
 Have fun!
 
-Here is the test run test.  `<!-- Have to change the filepath on the hackathon day -->`
+You can now try out the [Challenge 0](./challenge-00.md) for the test run.
 
-[Challenge 0](./challenge-00.md)
 
 ## Getting support
 
-There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94 74 354 6446`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
+There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94 71 382 6109`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
 
-In case of **non-technical support** you may reach out to our Malaysian Representative Anne Gomez on the number `+60 18 299 4076` via calls only.
+In case of **non-technical support** you may reach out to our `<ENTER SLITT DETAILS HERE>` via calls only.
 
 ## References
 
