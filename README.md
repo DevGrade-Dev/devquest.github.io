@@ -1,6 +1,6 @@
 # Welcome to `DevQuest 2024`
 
->> DISCLAIMER: Please note that this project is created only for the purpose of Hacktitude.io and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality, and security malpractices.
+>> DISCLAIMER: Please note that this project is created only for the purpose of DevQuest 2024 and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality, and security malpractices.
 >>
 
 1. [Setting up your environment](#setting-up-your-environment)
@@ -25,10 +25,8 @@ Installations of stable versions of `Git`, `Node.js` and `npm` are required on y
 
 <br>
 
-* &ensp; &ensp; **NodeJS version : 14.15.0** : `<a href="https://nodejs.org/ja/blog/release/v14.15.0" target="_blank">`https://nodejs.org/ja/blog/release/v14.15.0`</a>`
-* &ensp; &ensp; **Git** : `<a href="https://git-scm.com/downloads" target="_blank">`https://git-scm.com/downloads`</a>`
-* &ensp; &ensp; **Live Server Extension for VScode** : `<a href="https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/" target="_blank">`https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/`</a>`
-  `<br>`
+* [Node JS 18.18.0](https://nodejs.org/en/blog/release/v18.18.0)
+* [Git](https://git-scm.com/downloads)
 
 ### Clone the project to your local computer
 
@@ -203,7 +201,4 @@ In case of **non-technical support** you may reach out to our Malaysian Represen
 
 ## References
 
-* <a href="https://www.hacktitude.io" target="_blank"> Hacktitude official website </a>
-* <a href="https://www.hacktitude.io/faq" target="_blank"> Hacktitude FAQ </a>
-* <a href="https://99x.io" target="_blank"> 99x website </a>
-* `<a href="https://devgrade.io/" target="_blank">`DevGrade website
+* <a href="https://codefest.lk/devquest/" target="_blank">CodeFest DevQuest Website</a>
