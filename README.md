@@ -145,9 +145,6 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 > _Note: Tests are not using the main.sqlite3 database. Every test creates an isolated in-memory database._
 
-As an alternative to checking whether your implementations are accurate, you can verify them using the Postman API collection shared here.
-
-<a href="https://drive.google.com/file/d/1DZ8kG0CiEXIT4H8SagSHCHRTqfmmsOV0/view?usp=sharing" target="_blank"> POSTMAN COLLECTION </a>
 
 ### Legitimacy of your solution
 
@@ -180,12 +177,11 @@ Have fun!
 
 You can now try out the [Challenge 0](./challenge-00.md) for the test run.
 
-
 ## Getting support
 
 There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94 71 382 6109`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
 
-In case of **non-technical support** you may reach out to our `<ENTER SLITT DETAILS HERE>` via calls only.
+In case of **non-technical support** you may reach out to the DevQuest Support Contact No. `+94 76 777 4088` via calls only.
 
 ## References
 
